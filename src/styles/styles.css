@@ -1,0 +1,77 @@
+
+/* Import all styles */
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+/* [class*= "col-"]{
+  border: 1px solid aqua;
+  padding : 1reml
+} */
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+[class*="display-"] {
+  font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.container {
+  max-width: 768px;
+}
+
+@media (max-width:400px) {
+  .col-6 {
+    width: 100%;
+  }
+  
+}
+
+#border{
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#label{
+  padding-top: 5px;
+  
+}
+#section{
+  margin-bottom: 20px;
+}
+
+.display-24
+{
+  font-weight:bold;
+}
+
+section.intro{
+  margin-top: 10rem;
+}
+
+#scroll{
+  background: black;
+}
+#scroll-anim{
+  left: 50%;
+  transform: translateY(0%) rotate(45deg);
+  
+                opacity: 0;
+}
+@keyframes scrolldown {
+            0%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+            50%{
+                transform: translateY(0%) rotate(45deg);
+                opacity: 0.2;
+            }
+            100%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+        }
