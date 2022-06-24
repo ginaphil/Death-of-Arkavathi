@@ -4,46 +4,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="styles/styles.css">
   <script type="module" src="script/app.js"></script>
+
   <title>The Death of Arkavathi</title>
 </head>
 
 <body>
   <main>
     <article>
-     
       <section id="section" class="intro">
         <div class="container">
-          <div class="row title">
-            <div class="col-12">
-              <h1 class="display-3">The Death of Arkavathy</h1>
+            <div class = "col-12">
+              <img class = "header" src="assets/Group 41.png" >
             </div>
-          </div>
-          <div class="row bio">
-            <div class="col-12">
-              
-            </div>
-            <div class="author">
-              <h6 class="display-24" >by Jeena Philip, Rhidhit Paul and Souporno Mukherjee  </h6>
-            </div>
-          </div>
         </div>
       </section>
-    <section id="scroll">
-      <Div id="scroll-anim" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-            bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: rgb(7, 7, 7); animation: scrolldown 1.2s ease-in-out infinite 0.15s;"></Div>
-            <Div id="scroll-anim" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-            bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: rgb(61, 61, 61); animation: scrolldown 1.2s ease-in-out infinite;"></Div>
- </section>
+
+   
  <!-- scrolly -->
  <section id="map-scrolly">
 
-  <!-- define the scroll sections --> 
+  <!-- define the scroll sections   --> 
   <% const blocks=
     [
       { 
-      "filename" : "img_1" , 
+        "filename" : "arkavati_1" , 
       "anno" :"_blank-slide_"
       }, 
       { 
@@ -64,13 +51,16 @@
       },
       { 
         "filename" : "map_final" , 
-        "anno": "readers club @ kottayam" 
+        "anno": "<div class='head'> Doge Title </div> Much Doge Such Wow"
       }
     ] 
   %> 
 
-  
+ 
   <%- include('./scrolly/scrolly.ejs', {id: "map-scrolly" , blocks: blocks }); %>
+
+ 
+
 </section>
     </article>
   </main>
