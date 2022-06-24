@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
   <link href="//db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="styles/styles.css">
   <script type="module" src="script/app.js"></script>
@@ -16,7 +17,7 @@
     <article>
       <section id="section" class="intro">
         <div class="container">
-            <div class = "col-12">
+            <div class = "page">
               <img class = "header" src="assets/Group 41.png" >
             </div>
         </div>
@@ -30,28 +31,28 @@
   <% const blocks=
     [
       { 
-        "filename" : "arkavati_1" , 
-      "anno" :"_blank-slide_"
-      }, 
-      { 
         "filename" : "map_early" , 
-        "anno" : "tracing the maps" 
+        "anno" : "<div class='anote'> Over-exploitation of ground water in several taluks in and around the river.</div>"
       }, 
       { 
         "filename" : "map_abstract" , 
-        "anno" : "abstracting the traced map" 
+        "anno" : "<div class='anote'> Outlets of source lakes were encroached.</div>" 
       }, 
       { 
         "filename" : "map_schema" , 
-        "anno" : "creating a schematic map" 
+        "anno" : "<div class='anote'> There was a lack of sub-surface flow in the river.</div>"
       }, 
       { 
         "filename" : "map_roads" , 
-        "anno": "road network" 
+        "anno": "<div class='anote'>  The river water was consumed by the forests and surface irrigated lands.</div>"
+      },
+      { 
+        "filename" : "map_roads" , 
+        "anno": "<div class='anote'>  Several dams were constructed on the river to obstruct river flow.</div>"
       },
       { 
         "filename" : "map_final" , 
-        "anno": "<div class='head'> Doge Title </div> Much Doge Such Wow"
+        "anno": "<div class='anote'>  After all this, pharmaceutical products and untreated sewage were disposed into the river creating a large polluted stretch.</div>"
       }
     ] 
   %> 
@@ -61,6 +62,13 @@
 
  
 
+</section>
+<section id="section" class="conclu">
+  <div class="container">
+      <div class = "page">
+        <img class = "header" src="assets/Group 65.png" >
+      </div>
+  </div>
 </section>
     </article>
   </main>
